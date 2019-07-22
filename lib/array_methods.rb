@@ -1,6 +1,11 @@
 def using_include(array, element)
 array = ["wow", "I", "am", "really", "learning", "arrays!"]
+<<<<<<< HEAD
   array.include?(element)
+=======
+  array.include?("wow")
+  array.include? ("Tardis")
+>>>>>>> e99abf2deeff88a1d7787eeff49adbf557718941
 end
 
 def using_sort(array)
